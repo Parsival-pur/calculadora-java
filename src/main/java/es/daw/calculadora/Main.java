@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package es.daw.calculadora;
+
+/**
+ *
+ * @author Serafim_Asus_Laptop
+ */
+public class Main {
+public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+
+        double numero1 = 20;
+        double numero2 = 5;
+
+        
+        System.out.println("Suma: " + calculadora.sumar(numero1, numero2));
+        System.out.println("Resta: " + calculadora.restar(numero1, numero2));
+        System.out.println("Multiplicación: " + calculadora.multiplicar(numero1, numero2));
+        System.out.println("División: " + calculadora.dividir(numero1, numero2));
+    }
+}
