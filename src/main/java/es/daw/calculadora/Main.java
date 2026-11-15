@@ -20,5 +20,7 @@ public static void main(String[] args) {
         System.out.println("Resta: " + calculadora.restar(numero1, numero2));
         System.out.println("Multiplicación: " + calculadora.multiplicar(numero1, numero2));
         System.out.println("División: " + calculadora.dividir(numero1, numero2));
+        System.out.println("Potencia: " + calculadora.potencia(numero1, numero2));
+        System.out.println("Módulo: " + calculadora.modulo(numero1, numero2));
     }
 }
